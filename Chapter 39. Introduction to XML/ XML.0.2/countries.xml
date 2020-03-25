@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Da jeg ikke har databasen på min computer længere har jeg bare fundet på noget -->
+
+<countries>
+    <country>
+        <name>Russian Federation</name>
+        <continent>Europe</continent>
+        <region>Eastern Europe</region>
+        <population>146934000.0</population>
+        <gnp>1276,608</gnp>
+        <localname>Rossija</localname>
+        <governmentform> Federal Republic</governmentform>
+        <capital>3,580.0</capital>
+    </country>
+
+    <country>
+        <name>Australia</name>
+        <continent>Oceania</continent>
+        <region>Australia and New Zealand</region>
+        <population>18,886,000.0</population>
+        <gnp>351,182</gnp>
+        <localname>Australia</localname>
+        <governmentform> Constitutional Monarchy</governmentform>
+    </country>
+</countries>

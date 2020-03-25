@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Da jeg ikke har databasen på min computer længere har jeg bare fundet på noget -->
+<cities>
+     <city>
+        <name>Amsterdam</name>
+        <countrycode>NLD</countrycode>
+        <population>731200</population>
+    </city>
+
+    <city>
+        <name>Copenhagen</name>
+        <countrycode>DNK</countrycode>
+        <population>731200</population>
+    </city>
+
+    <city>
+        <name>London</name>
+        <countrycode>GB</countrycode>
+        <population>8.9 millioner</population>
+    </city>
+</cities>

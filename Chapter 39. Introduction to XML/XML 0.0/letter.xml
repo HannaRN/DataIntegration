@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./letter1.xsl"?> <!-- Henter den anden fil så den kan læse og style -->
+<emails>
+    <email>
+        <to>Dad</to>
+        <from>Hanna</from>
+        <subject>Greetings</subject>
+        <message>Hello Dad, did you know they will postponed OL 2020 to 2021 </message>
+    </email>
+</emails>

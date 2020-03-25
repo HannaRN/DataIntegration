@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Da jeg ikke har databasen på min computer længere har jeg bare fundet på noget -->
+<governmentforms>
+    <governmentform>
+        <name>Parlementary Monarchy</name>
+    </governmentform>
+
+     <governmentform>
+        <name>presidential republic</name>
+    </governmentform>
+
+    <governmentform>
+        <name>parliamentary democracy under a constitutional monarchy; a Commonwealth realm</name>
+    </governmentform>
+</governmentforms>

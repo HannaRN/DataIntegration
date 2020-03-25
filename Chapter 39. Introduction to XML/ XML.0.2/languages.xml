@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Da jeg ikke har databasen på min computer længere har jeg bare fundet på noget -->
+<languages>
+    <language>
+        <countrycode>GB</countrycode>
+        <language>English</language>
+        <official>True</official>
+        <percentage>98</percentage>
+    </language>
+
+    <language>
+        <countrycode>DNK</countrycode>
+        <language>Danish</language>
+        <official>True</official>
+        <percentage>86.3</percentage>
+    </language>
+
+    <language>
+        <countrycode>FRA</countrycode>
+        <language>French</language>
+        <official>True</official>
+        <percentage>100</percentage>
+    </language>
+</languages>
