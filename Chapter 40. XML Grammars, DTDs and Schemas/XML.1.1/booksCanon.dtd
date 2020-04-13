@@ -1,0 +1,24 @@
+<!ELEMENT booksCanon (book)*>
+<!ELEMENT book (title, edition, authors, publisher, pages, isbn, price, currency, comments)>
+    <!ATTLIST book
+        href CDATA #IMPLIED
+        mycanon CDATA #IMPLIED
+    >
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT authors (author+)>
+    <!ELEMENT author (firstname+, lastname+)>
+        <!ELEMENT firstname (#PCDATA)>
+        <!ELEMENT lastname (#PCDATA)>
+<!ELEMENT publisher (name+, year+, place+)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT place (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT currency (#PCDATA)>
+<!ELEMENT comments (comment+)>
+    <!ELEMENT comment (#PCDATA)>
+
+
