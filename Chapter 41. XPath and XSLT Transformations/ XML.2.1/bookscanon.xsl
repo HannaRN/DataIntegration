@@ -11,6 +11,7 @@
 		 irrespective of name,
 	     and creates an html outline with an apply templates somewhere
 	-->
+    
 	<xsl:template match="/">
 		<html>
 			<head>
@@ -21,7 +22,7 @@
 			</body>
 		</html>
 	</xsl:template>
-
+<table>
 	<xsl:template match="booksCanon/book">
 		<section style="
 			background-color: blue;
@@ -66,8 +67,8 @@
 	</xsl:template>
 
     <!--Pris-->
-	<tr><xsl:template match="booksCanon/book/price">
-		<td><p><b>Price: </b> <xsl:apply-templates/></p></td>
+	<tr style="outline: 1px solid;"> <xsl:template match="booksCanon/book/price">
+		<th><b>Price: </b></th> <td><xsl:apply-templates/></td>
 	</xsl:template></tr>
 
     <!--Forlag-->
@@ -79,5 +80,5 @@
 	<xsl:template match="booksCanon/book/comments">
 		<p><b>Comments: </b> <xsl:apply-templates/></p>
 	</xsl:template>
-
+</table>
 </xsl:stylesheet>
