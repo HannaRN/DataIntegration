@@ -25,7 +25,6 @@
 	<xsl:template match="booksCanon/book">
 		<section style="
 			background-color: blue;
-			outline: 1px solid;
 			padding: 10px;
 			width: 50%;">
 		<xsl:apply-templates/>
