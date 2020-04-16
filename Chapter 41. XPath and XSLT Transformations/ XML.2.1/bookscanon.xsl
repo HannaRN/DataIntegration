@@ -1,6 +1,7 @@
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns="http://www.w3.org/1999/xhtml">
+	
 
 	<xsl:output method="xml"
 				indent="yes"
@@ -22,7 +23,7 @@
 			</body>
 		</html>
 	</xsl:template>
-<table>
+
 	<xsl:template match="booksCanon/book">
 		<section style="
 			background-color: blue;
@@ -80,5 +81,5 @@
 	<xsl:template match="booksCanon/book/comments">
 		<p><b>Comments: </b> <xsl:apply-templates/></p>
 	</xsl:template>
-</table>
+
 </xsl:stylesheet>
